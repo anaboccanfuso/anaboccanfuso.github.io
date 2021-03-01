@@ -1,8 +1,18 @@
 body {
-    background:tan;
+    background:#d1bea8;
     font-family:Arial, Helvetica, sans-serif;
 }
+.assignment{
+    display:flex;
+    padding:10px;
+    margin:10px;
+    background:#faf0e6; 
+}
 
+.assignment img {
+    width:200px;
+    padding:10px;
+}
 h1 {
     color:rgb(65, 38, 4);
     text-align:center;
