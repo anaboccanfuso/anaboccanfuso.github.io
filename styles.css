@@ -7,13 +7,31 @@ body {
     padding:10px;
     margin:10px;
     background:#faf0e6; 
+    border-radius: 20px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:4px solid #CD853F;
+}
+
+.assignment img:hover {
+    border:4px solid #d1bea8;
 }
 h1 {
     color:rgb(65, 38, 4);
     text-align:center;
+}
+
+h1:hover{
+    color:#d1bea8;
+}
+a {
+    text-decoration:none;
+    color:#CD853F;
+}
+
+a:hover{
+    color:#d1bea8;
 }
