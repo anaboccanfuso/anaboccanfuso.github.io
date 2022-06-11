@@ -1,107 +1,402 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CSCE 190: Ana Boccanfuso</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1>Ana Boccanfuso's CSCE 190 Site</h1>
-            <div class="assignments">
-                <!--Problem Statement Assignment-->
-                <section class="assignment">
-                    <a href="files/problem-statement.pdf">
-                        <h2>Problem Statement: Candles</h2>
-                    </a>
-                    <a href="files/problem-statement.pdf">
-                        <img src="images/problem-statement.png">
-                    </a>
-                        <p>
-                            The users are frustrated because of not finding the perfect scent, shape, and style for their specific needs. People are tired of going to the stores and especially during this pandemic don’t want to be around people or cannot take off their masks to smell the perfect candle for them. As a result, our solution should provide users a way to easily create the perfect candle for them and at risk free during the pandemic. 
-                        </p>
-                </section>
+	<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
+		<meta name="description" content="Ana Boccanfuso portfolio">
+		<meta name="keywords" content="Ana Boccanfuso, USC Honors">
 
-                <!--Affinity Diagram Assignment-->
-                <section class="assignment">
-                    <a href="files/affinity-diagram.pdf">
-                        <h2>Affinity Diagram: Candles</h2>
-                    </a>
-                    <a href="files/affinity-diagram.pdf">
-                        <img src="images/affinity-diagram.png">
-                    </a>
-                    <p>
-                        The affinity diagram shows our group's ideas on everything candles. 
-                    </p>
-                </section>
+  		<link rel="stylesheet" href="assets/css/styles.css">
+  		<link rel="icon" href="assets/img/logo.png">
+		<link rel="stylesheet" href="https://use.typekit.net/ufg7hqz.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
-                <!--Persona Assignment-->
-                <section class="assignment">
-                    <a href="files/Personas.pdf">
-                        <h2>Persona: 5 Personas for Candles</h2>
-                    </a>
-                    <a href="files/Personas.pdf">
-                        <img src="images/personas.png">  
-                    </a> 
-                    <p>
-                            Five personas of typical candle app users. 
-                    </p>
-                </section>
+		<title>Ana Boccanfuso</title>
 
-                <!--Storyboard Assignment-->
-                <section class="assignment">
-                    <a href="files/storyboard.pdf">
-                        <h2>Storyboard: 5 Stories of Utilizing the Candle App</h2>
-                    </a>
-                    <a href="files/storyboard.pdf">
-                        <img src="images/storyboard.png">
-                    </a>
-                    <p>
-                        These five different stories reflect how the personas would come to use the candle app. 
-                    </p>
-                </section>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153644395-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-                <!--Sketches Assignment-->
-                <section class="assignment">
-                    <a href="files/Sketches.pdf">
-                        <h2>Sketches</h2>
-                    </a>
-                    <a href="files/Sketches.pdf">
-                        <img src="images/sketches.png">
-                     </a>
-                    <p>
-                        These sketches are five rough ideas of how our candle customizing app may be implemented. 
-                    </p>
-                </section>
+		  gtag('config', 'UA-153644395-1');
+		</script>
+	</head>
+	<body>
+		<!--Navigation Bar-->
+		<div id="nav">
+            <a href="#home-section" class="nav">
+                <img src="assets/img/ana.png">
+            </a>
+            <a href="#about-section" class="nav-item left">ABOUT</a>
+			<a href="#education-section" class="nav-item left">EDUCATION</a>
+            <a href="#project-section" class="nav-item left">PROJECTS</a>
+		</div>
 
-                <!--Prototype Assignment-->
-                <section class="assignment">
-                    <a href="https://www.youtube.com/watch?v=mg4_NoQTfEw">
-                        <h2>Paper Prototype</h2>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=mg4_NoQTfEw">
-                        <img src="images/Paper-Prototype.png">
-                    </a>
-                    <p>
-                        A paper walkthrough of a potential design for the Candle Customizer application.
-                    </p>
-                </section>
+		<div class="page-content">
+			<!--Home Page-->
+			<section id="home-section" style="background-image: url('assets/img/imageedit_3_2061222896.png'); background-size: contain;">
+				<div class="container row">
+					<div class="container row" id="landing-container">
+						<!--<img src="assets/img/IMG_6060.JPG" id="profile-icon">-->
+						<div class="container column" id="landing-text">
+                            <img src="assets/img/name.png" id="profile-icon">
+                            <p id="app"></p>
+						</div>
+					</div>
+					<a href="#about-section" class="arrow"></a>
+				</div>
+			</section>
 
-                <!--High-fi Prototype Assignment-->
-                <section class="assignment">
-                    <a href="files/hi-fi-prototype/index.html"><h2>High-Fi Prototype: Candle Customizer App</h2></a>
-                    <a href="files/hi-fi-prototype/index.html"><img src="images/hi-fi-prototype.png"></a>
-                    <p>
-                        A high fidelity prototype of our candle customizing app, with interactive elements and design.
-                    </p>
-                </section>
+			<!--About Section-->
+			<section class ="container column" id="about-section">
+				<h1 class="subtitle">HELLO, WORLD!</h1>
+				<div class="container row" id="img-console">
+					<div id="console">
+						<span class="first-color">package</span>
+						<span class="fifth-color">aboutMe</span><span class="second-color">;</span>
+						<br>
+						<br>
+						<span class="first-color">public</span>
+						<span class="third-color">class</span>
+						<span class="fifth-color">Ana</span>
+						<span class="first-color">extends</span>
+						<span class="fifth-color">humanBean</span>
+						<span class="second-color">{</span>
+						<br>
+						<ul>
+							<span class="first-color">public</span>
+							<span class="fifth-color">Ana</span><!-- 
+						 --><span class="second-color">() {</span>
+							<br>
+							<ul>
+							    <span class="third-color">String</span>
+							    <span class="second-color">fullName = </span>
+								<span class="fourth-color">"Ana Boccanfuso"</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">String</span>
+								<span class="second-color">homeTown = </span>
+								<span class="fourth-color">"Columbia, SC"</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">String</span>
+								<span class="second-color">school = </span>
+								<span class="fourth-color">"University of South Carolina"</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">int</span>
+								<span class="second-color">expGraduation = </span>
+								<span class="fourth-color">December 2023</span><span class="second-color">;</span>
+								<br>
+<!-- 								<span class="third-color">String</span>
+							    <span class="second-color">major = </span>
+								<span class="fourth-color">"Data Science"</span><span class="second-color">;</span>
+								<br> -->
+								<span class="third-color">Resume</span>
+								<span class="second-color">resume = </span>
+								<span class="first-color">new</span>
+								<span class="second-color">Resume(</span><span class="fourth-color">"</span><!-- 
+								 --><span ><a href="assets/resume.pdf" class="fourth-color">pdf</a></span><!-- 
+								 --><span class="fourth-color">"</span><span class="second-color">)</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">String[]</span>
+								<span class="second-color">hobbiesAndInterests = </span>
+								<span class="first-color">new </span>
+								<span class="third-color">String[]</span>
+								<span class="second-color">{</span>
+								<br>
+								<ul>
+									<span class="fourth-color">"content creation"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"dancing"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"classical music"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"teaching"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"board games"</span>
+									<br>
+								</ul>
+								<span class="second-color">}</span>
+								<br>
+							</ul>
+							<span class="second-color">}</span>
+							<br>
+							<span class="first-color">public static</span>
+							<span class="third-color">void</span>
+							<span class="fifth-color">contact</span><!-- 
+						 --><span class="second-color">() {</span>
+						 		<ul>
+						 			<span class="third-color">Email</span>
+									<span class="second-color">email = </span>
+									<span class="first-color">new</span>
+									<span class="second-color">Email(</span><span class="fourth-color">"</span><!-- 
+								 --><span ><a href="mailto:boccanfa@email.sc.edu" class="fourth-color">boccanfa@email.sc.edu</a></span><!-- 
+								 --><span class="fourth-color">"</span><span class="second-color">)</span><span class="second-color">;</span>
+								 	<br>
+								 	<span class="third-color">String[]</span>
+									<span class="second-color">links = </span>
+									<span class="first-color">new </span>
+									<span class="third-color">String[]</span>
+									<span class="second-color">{</span>
+									<br>
+									<ul>
+										<span class="fourth-color">"</span><!-- 
+									--><a href="https://www.linkedin.com/in/anaboccanfuso/" class= "fourth-color" target="_blank">LinkedIn</a><!-- 
+									 --><span class="fourth-color">"</span><span class="second-color">,</span>
+										<br>
+										<span class="fourth-color">"</span><!-- 
+									--><a href="https://github.com/anaboccanfuso" class= "fourth-color" target="_blank">Github</a><!-- 
+									 --><span class="fourth-color">"</span><span class="second-color">,</span>
+										<br>
+										<span class="fourth-color">"</span><!-- 
+									--><a href="https://www.instagram.com/ana_boca/?hl=en" class= "fourth-color" target="_blank">Instagram</a><!-- 
+									 --><span class="fourth-color">"</span>
+										 <br>
+									</ul>
+									<span class="second-color">}</span>
+						 		</ul>
+						 	<span class="second-color">}</span>
+							<br>
 
-                <!--Presentation Assignment-->
-                <section class="assignment">
-                    <a href="https://www.youtube.com/watch?v=Y993L9IeBfY"><h2>Presentation: Candle Customizer App</h2></a>
-                    <a href="https://www.youtube.com/watch?v=Y993L9IeBfY"><img src="images/presentation.png"></a>
-                    <p>
-                        A presentation of our high fidelity prototype candle customizing app, with descriptions of functionality and design. Also included is a description of a need for this app and our user base. 
-                    </p>
-                </section>
-            </div>
-    </body>
+
+						</ul>
+						<span class="second-color">}</span>
+					</div>
+					<img src="assets/img/headshot - Copy.JPG" id="about-img">
+				</div>
+			</section>
+
+			<!--Education Section-->
+			<section class="container column parallax" id="education-section" style="background-image: url('assets/img/imageedit_15_9061941998.png'); background-size: contain;">
+				<div class="container column" id="text">
+					<h1 class="subtitle">EDUCATION</h1>
+					<div class="container row" id="education-title">
+						<img src="assets/img/uofsc.png" style="display:inline-block">
+						<div class="container column" id="school">
+							<h2>University of South Carolina, Honors College</h2>
+							<h3>B.S.C.S. - Computer Science, Minor in Data Science</h3>
+							<p>Expected Graduation: December 2023</p>
+						</div>
+					</div>
+					<div class="container column" id="coursework">
+						<h4>Relevant Coursework:</h4>
+						<p>Computer Science</p>
+						<ul>
+							<li>Software Engineering (CSCE 247)</li>
+							<li>Data Structures and Algorithms (CSCE 350)</li>
+							<li>Advanced Programming Technologies (CSCE 240)</li>
+							<li>Operating Systems (CSCE 311)</li>
+							<li>Programming Language Structures (CSCE 330)*</li>
+							<li>UNIX/Linux Fundamentals (CSCE 215)</li>
+							<li>Algorithmic Design (CSCE 145/146)</li>
+							<li>Digital Logic Design (CSCE 211)</li>
+							<li>Introduction to Computer Architecture (CSCE 212)</li>
+							<li>Introduction to Computer Networks (CSCE 416)</li>
+							<li>Computing in the Modern World (CSCE 190)</li>
+							<li>Vector Calculus (MATH 241)</li>
+                            <li>Discrete Structures (MATH 374)</li>
+                            <li>Capstone Computing Project (CSCE 490/492)*</li>
+                            <li>Technical Writing (ENGL 462)*</li>
+						</ul>
+						<p>Data Science</p>
+						<ul>
+							<li>Visualization Tools (CSCE 567)*</li>
+                            <li>Applied Linear Algebra (MATH 344)*</li>
+							<li>Statistics for Engineers (STAT 509)</li>
+						</ul>
+						<p>Other</p>
+						<ul>
+							<li>Introduction to Economics (ECON 224)</li>
+							<li>Business and Professional Speaking (SPCH 230)</li>
+                            <li>Cognitive Psychology (PSYC 405)</li>
+                            <li>Introduction to Neuroscience (PSYC 455)</li>
+						</ul>
+						<p id="progress">*in progress</p>
+					</div>
+				</div>
+			</section>
+
+			<!--Project Section-->
+			<section class="container column" id="project-section">
+				<h1 class="subtitle">PROJECTS</h1>
+
+				<!--Filter Buttons-->
+				<div class="contianer row" id="button-section">
+					<button class="filter-button active" onclick="filterSelection('all')">All</button>
+<!--                <button class="filter-button" onclick="filterSelection('python')">Python</button>-->
+<!--                <button class="filter-button" onclick="filterSelection('data')">Data</button>-->					
+					<button class="filter-button" onclick="filterSelection('java')">Java</button>
+					<button class="filter-button" onclick="filterSelection('c++')">C++</button>
+				</div>
+
+				<!--Individual Projects-->
+				<div class="container row" id="project-container">
+
+					<div class="each-project python">
+					  <img class="proj-img" src="assets/img/Ants_Vs_Somebees.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Ants</h2>
+							<p>Spin off of the popular game Plants Vs. Zombies. Combines <b>functional</b> and <b>object-oriented</b> programming paradigms.</h3>
+							<br>
+							<br>
+							<i>Python</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project python">
+					  <img class="proj-img" src="assets/img/Scheme_Interpreter.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Scheme Interpreter</h2>
+							<p>Developed an <b>interpreter</b> for a subset of the Scheme language that syntactically <b>tokenizes</b> through inputs. Implemented with <b>tail recursion</b>.</p>
+							<br>
+							<i>Python</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project java">
+					  <img class="proj-img" src="assets/img/Enigma.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Enigma</h2>
+							<p>Replicated the WWII German encryption machine that <b>parses</b> and <b>tokenizes</b> input with various <b>permutations</b> to <b>encode</b> and <b>decode</b> messages.</p>
+							<br>
+							<i>Java</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project java">
+					  <img class="proj-img" src="assets/img/Gitlet.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Gitlet</h2>
+							<p>Implemented a version-control system using <b>sha-1</b> and a parallel representation of classes as <b>serialized</b> files to enure <b>persistence</b>.</p>
+							<i>Java</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project java">
+					  <img class="proj-img" src="assets/img/Lines_Of_Action.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Lines of Action</h2>
+							<p>Recreated the checkerboard game with a <b>GUI</b>. Implemented the AI player using <b>game trees</b> and <b>alpha-beta pruning</b>.</p>
+							<br>
+							<i>Java</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project data">
+					  <img class="proj-img" src="assets/img/Trumps_Tweets.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Trump's Tweets</h2>
+							<p>Analyzed interesting patterns in Trump's Tweets through <b>EDA</b> and used <b>VADER</b> to perform <b>sentiment analysis</b>.</p>
+							<br>
+							<i>Python, Pandas</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project data">
+					  <img class="proj-img" src="assets/img/House.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Housing Prices</h2>
+							<p>Built a <b>linear regression</b> model that predicts the housing prices in Ames, Iowa using <b>feature engineering</b> and <b>cross validation</b>.</p>
+							<br>
+							<i>Python, sklearn, Pandas</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project data">
+					  <img class="proj-img" src="assets/img/Spam_Classifier.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Spam/Ham Classifier</h2>
+							<p>Built a <b>logistic regression</b> model to predict whether an email was spam or ham. Received a <b>92% accuracy</b> on the testing set.</p>
+							<br>
+							<i>Python, sklearn, Pandas</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project data">
+					  <img class="proj-img" src="assets/img/COVID-19.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Understanding COVID-19</h2>
+							<a href="assets/covid.pdf" target="_blank">Report</a>
+							<br>
+							<br>
+							<i>Python, sklearn, Pandas</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project web">
+					  <img class="proj-img" src="assets/img/Website.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Personal Website</h2>
+							<p>This website was made from pure <b>HTML/CSS</b>! I also drew all of the icons using <b>Procreate</b>.</p>
+							<br>
+							<a href="https://github.com/chrlng/chrlng.github.io" target="_blank">Repo for this website</a>
+							<br>
+							<br>
+							<i>HTML / CSS / JavaScript</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project web">
+						<img class="proj-img" src="assets/img/Sorting-1.jpeg"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Sorting Algorithms Animations</h2>
+							  <p>Created a website that <b>visualizes</b> four popular sorting algorithms at <b>various speeds</b>.</p>
+							  <br>
+							  <a href="https://chrlng.github.io/sorting-visualizer/" target="_blank">Demo</a>
+							  <br>
+							  <br>
+							  <i>HTML / CSS / JavaScript, React</i>
+						  </div>
+						</div>
+					  </div>
+
+				</div>
+			</section>
+
+
+			<!--Footer/Contact-->
+			<section class="container column" id="footer">
+				<div class="container row" id="social-container">
+					<a href="https://www.linkedin.com/in/anaboccanfuso/" target="_blank">LinkedIn</a>
+					<span>•</span>
+					<a href="https://github.com/anaboccanfuso" target="_blank">Github</a>
+					<span>•</span>
+					<a href="https://www.instagram.com/ana_boca/?hl=en" target="_blank">Instagram</a>
+					<span>•</span>
+					<a href="mailto:boccanfa@email.sc.edu" target="_blank">Email</a>
+				</div>
+				<div>
+					<p id="copyright">Coded by Ana with ♡ 2022</p>
+				</div>
+			</section>
+			
+		</div>
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+		<script src="assets/scripts/scripts.js"></script>
+
+	</body>
 </html>
