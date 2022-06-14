@@ -45,7 +45,7 @@
 						<!--<img src="assets/img/IMG_6060.JPG" id="profile-icon">-->
 						<div class="container column" id="landing-text">
                             <img src="assets/img/name.png" id="profile-icon">
-                            <p id="app"></p>
+                            <p id="app" style="color:black"></p>
 						</div>
 					</div>
 					<a href="#about-section" class="arrow"></a>
@@ -160,8 +160,6 @@
 						 		</ul>
 						 	<span class="second-color">}</span>
 							<br>
-
-
 						</ul>
 						<span class="second-color">}</span>
 					</div>
@@ -181,8 +179,8 @@
 					</div>
                 </div>
 				<div class="container row" style="width: 100%;">
-                    <div id="coursework" style="width:40%">
-                        <h3 style="text-align: center; font-family: Garamond, serif;">Relevant Coursework</h4>
+                    <div id="coursework" style="width:30%">
+                        <h3 style="font-family: Garamond, serif; margin-top: 50px;">Relevant Coursework</h4>
                         <p>Computer Science</p>
                         <ul>
                             <li>Software Engineering (CSCE 247)</li>
@@ -190,6 +188,7 @@
                             <li>Advanced Programming Technologies (CSCE 240)</li>
                             <li>Operating Systems (CSCE 311)</li>
                             <li>Programming Language Structures (CSCE 330)*</li>
+                            <li>Foundations of Computation (CSCE 355)*</li>
                             <li>UNIX/Linux Fundamentals (CSCE 215)</li>
                             <li>Algorithmic Design (CSCE 145/146)</li>
                             <li>Digital Logic Design (CSCE 211)</li>
@@ -204,12 +203,14 @@
                             <li>Visualization Tools (CSCE 567)*</li>
                             <li>Applied Linear Algebra (MATH 344)*</li>
                             <li>Statistics for Engineers (STAT 509)</li>
+                            <li>Big Data Analytics (CSCE 587)*</li>
+                            <li>Applied Multivariate Statistics and Data Mining (STAT 530)*</li>
                         </ul>
                         <p id="progress">*in progress</p>
                     </div>
-                    <img src="assets/img/polaroid.png" id="edu-img">
 				</div>
 			</section>
+
 
 			<!--Project Section-->
 			<section class="container column" id="project-section">
@@ -222,149 +223,74 @@
 <!--                <button class="filter-button" onclick="filterSelection('data')">Data</button>-->					
 					<button class="filter-button" onclick="filterSelection('java')">Java</button>
 					<button class="filter-button" onclick="filterSelection('c++')">C++</button>
+                    <button class="filter-button" onclick="filterSelection('web')">Web Dev</button>
 				</div>
 
 				<!--Individual Projects-->
 				<div class="container row" id="project-container">
 
-					<div class="each-project python">
-					  <img class="proj-img" src="assets/img/Ants_Vs_Somebees.png"/>
+					<div class="each-project java">
+					  <img class="proj-img" src="assets/img/1.png"/>
 					  <div class="proj-description container column">
 					  	<div class="img-description">
-							<h2>Ants</h2>
-							<p>Spin off of the popular game Plants Vs. Zombies. Combines <b>functional</b> and <b>object-oriented</b> programming paradigms.</h3>
+							<h2>Internship Database</h2>
+							<p>Developed a student application to search for internship listings and create a resume profile. Employers create profiles and post internship opportunities. Students apply with their resume to internships, as well as leave reviews for companies.</p>
 							<br>
 							<br>
-							<i>Python</i>
+							<i>Java, Json</i>
 						</div>
 					  </div>
 					</div>
 
-					<div class="each-project python">
-					  <img class="proj-img" src="assets/img/Scheme_Interpreter.png"/>
+					<div class="each-project c++">
+					  <img class="proj-img" src="assets/img/2.png"/>
 					  <div class="proj-description container column">
 					  	<div class="img-description">
-							<h2>Scheme Interpreter</h2>
-							<p>Developed an <b>interpreter</b> for a subset of the Scheme language that syntactically <b>tokenizes</b> through inputs. Implemented with <b>tail recursion</b>.</p>
+							<h2>Algorithms</h2>
+							<p>Implementations of four different algorithms including <b>quicksort</b>, creating a <b>heap</b> using the bottom-up algorithm, <b>Horspool’s</b> algorithm, and <b>Floyd’s</b> algorithm. Given pseudocode, I had to implement the algorithms in an effective and efficient way.</p>
 							<br>
-							<i>Python</i>
+							<i>C++</i>
 						</div>
 					  </div>
 					</div>
 
 					<div class="each-project java">
-					  <img class="proj-img" src="assets/img/Enigma.png"/>
+					  <img class="proj-img" src="assets/img/3.png"/>
 					  <div class="proj-description container column">
 					  	<div class="img-description">
-							<h2>Enigma</h2>
-							<p>Replicated the WWII German encryption machine that <b>parses</b> and <b>tokenizes</b> input with various <b>permutations</b> to <b>encode</b> and <b>decode</b> messages.</p>
+							<h2>Design Patterns</h2>
+							<p>Various design patterns: <b>adapter</b>, <b>decorator</b>, <b>factory</b>, <b>iterator</b>, <b>singleton</b>, <b>state</b>, and <b>strategy</b>. Provided with a driver and UML class diagram, I completed the code to make it usable and efficient.</p>
 							<br>
 							<i>Java</i>
 						</div>
 					  </div>
 					</div>
 
-					<div class="each-project java">
-					  <img class="proj-img" src="assets/img/Gitlet.png"/>
+					<div class="each-project c++">
+					  <img class="proj-img" src="assets/img/4.png"/>
 					  <div class="proj-description container column">
 					  	<div class="img-description">
-							<h2>Gitlet</h2>
-							<p>Implemented a version-control system using <b>sha-1</b> and a parallel representation of classes as <b>serialized</b> files to enure <b>persistence</b>.</p>
-							<i>Java</i>
-						</div>
-					  </div>
-					</div>
-
-					<div class="each-project java">
-					  <img class="proj-img" src="assets/img/Lines_Of_Action.png"/>
-					  <div class="proj-description container column">
-					  	<div class="img-description">
-							<h2>Lines of Action</h2>
-							<p>Recreated the checkerboard game with a <b>GUI</b>. Implemented the AI player using <b>game trees</b> and <b>alpha-beta pruning</b>.</p>
-							<br>
-							<i>Java</i>
-						</div>
-					  </div>
-					</div>
-
-					<div class="each-project data">
-					  <img class="proj-img" src="assets/img/Trumps_Tweets.png"/>
-					  <div class="proj-description container column">
-					  	<div class="img-description">
-							<h2>Trump's Tweets</h2>
-							<p>Analyzed interesting patterns in Trump's Tweets through <b>EDA</b> and used <b>VADER</b> to perform <b>sentiment analysis</b>.</p>
-							<br>
-							<i>Python, Pandas</i>
-						</div>
-					  </div>
-					</div>
-
-					<div class="each-project data">
-					  <img class="proj-img" src="assets/img/House.png"/>
-					  <div class="proj-description container column">
-					  	<div class="img-description">
-							<h2>Housing Prices</h2>
-							<p>Built a <b>linear regression</b> model that predicts the housing prices in Ames, Iowa using <b>feature engineering</b> and <b>cross validation</b>.</p>
-							<br>
-							<i>Python, sklearn, Pandas</i>
-						</div>
-					  </div>
-					</div>
-
-					<div class="each-project data">
-					  <img class="proj-img" src="assets/img/Spam_Classifier.png"/>
-					  <div class="proj-description container column">
-					  	<div class="img-description">
-							<h2>Spam/Ham Classifier</h2>
-							<p>Built a <b>logistic regression</b> model to predict whether an email was spam or ham. Received a <b>92% accuracy</b> on the testing set.</p>
-							<br>
-							<i>Python, sklearn, Pandas</i>
-						</div>
-					  </div>
-					</div>
-
-					<div class="each-project data">
-					  <img class="proj-img" src="assets/img/COVID-19.png"/>
-					  <div class="proj-description container column">
-					  	<div class="img-description">
-							<h2>Understanding COVID-19</h2>
-							<a href="assets/covid.pdf" target="_blank">Report</a>
-							<br>
-							<br>
-							<i>Python, sklearn, Pandas</i>
+							<h2>Client-Server</h2>
+							<p>Implemented <b>client-server</b> communication using various methods: <b>UNIX domain sockets</b>, <b>shared memory</b>, and <b>memory-mapped files</b>. There is also functionality to find a search string in a text file, and the server relays this information back to the client.</p>
+							<i>C++</i>
 						</div>
 					  </div>
 					</div>
 
 					<div class="each-project web">
-					  <img class="proj-img" src="assets/img/Website.png"/>
+					  <img class="proj-img" src="assets/img/5.png"/>
 					  <div class="proj-description container column">
 					  	<div class="img-description">
 							<h2>Personal Website</h2>
-							<p>This website was made from pure <b>HTML/CSS</b>! I also drew all of the icons using <b>Procreate</b>.</p>
+							<p>This website was made from pure <b>HTML/CSS</b>!</p>
 							<br>
-							<a href="https://github.com/chrlng/chrlng.github.io" target="_blank">Repo for this website</a>
+							<a href="https://github.com/anaboccanfuso/anaboccanfuso.github.io" target="_blank">Repo for this website</a>
 							<br>
 							<br>
 							<i>HTML / CSS / JavaScript</i>
 						</div>
 					  </div>
 					</div>
-
-					<div class="each-project web">
-						<img class="proj-img" src="assets/img/Sorting-1.jpeg"/>
-						<div class="proj-description container column">
-							<div class="img-description">
-							  <h2>Sorting Algorithms Animations</h2>
-							  <p>Created a website that <b>visualizes</b> four popular sorting algorithms at <b>various speeds</b>.</p>
-							  <br>
-							  <a href="https://chrlng.github.io/sorting-visualizer/" target="_blank">Demo</a>
-							  <br>
-							  <br>
-							  <i>HTML / CSS / JavaScript, React</i>
-						  </div>
-						</div>
-					  </div>
 
 				</div>
 			</section>

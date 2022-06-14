@@ -25,6 +25,7 @@ p {
 	font-family: Garamond, serif;
 	font-weight: 300;
 	font-style: normal;
+    color:#6DBD4B;
 }
 
 a {
@@ -255,14 +256,6 @@ ul {
 
 /**Education**/
 
-#edu-img {
-	height: 500px;
-	
-	overflow-y:hidden;
-	margin: 40px;
-	margin-top: 20px;
-}
-
 #text .subtitle {
 	margin-bottom:40px;
 }
@@ -271,15 +264,13 @@ ul {
 	padding:50px;
 	padding-bottom: 80px;
 	min-height:90vh;
-    background-image: url("../img/imageedit_24_2783486597.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
-#text {
-	background-color: #474d5a;
+/* #text {
 	padding-top:0px;
-}
+    background-color: #d7e4ff;
+    box-shadow: 12px 12px 1px #fcc2e4;
+} */
 
 
 #education-title img {
@@ -299,6 +290,7 @@ ul {
 
 #school p {
 	font-size: 15px;
+    color: black;
 }
 
 #school * {
@@ -308,24 +300,25 @@ ul {
 #coursework {
 	align-items: flex-start;
 	font-size: 120%;
-    margin: 30px;
-    padding: 20px;
-    overflow-y:auto;
-    line-height: 22px;
-    font-size: 90%;
     font-family: 'Avenir', sans-serif;
-    width: 400px;
-    background-color: rgba(255, 255, 255, 0.705);
-    border-radius: 15px;
+}
+
+#coursework p {
+    color: black;
 }
 
 li {
-    font-family: Garamond, serif;
+    font-family: 'Joan', serif;
 	margin: 3px;
+    font-size: 15px;
 }
 
 ul {
 	list-style-type: circle;
+    height:30px;
+    display: inline-block;
+    *display: inline;
+    zoom:1;
 }
 
 #progress {
