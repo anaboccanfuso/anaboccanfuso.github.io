@@ -78,8 +78,9 @@ a:hover {
 
 .nav-item {
 	color: #2a2d34;
-    /**font-family: 'Avenir', sans-serif;**/
-	display: inline-block;
+	float: right;
+	display: block;
+	text-align: center;
 	padding: 22px;
 	text-decoration: none;
 	font-size: 17px;
