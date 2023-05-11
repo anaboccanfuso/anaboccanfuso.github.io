@@ -293,6 +293,7 @@ ul {
 #coursework {
 	align-items: flex-start;
 	font-size: 120%;
+	margin-left: 10%;
     font-family: 'Avenir', sans-serif;
 }
 
